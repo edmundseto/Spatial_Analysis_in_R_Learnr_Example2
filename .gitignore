@@ -1,0 +1,8 @@
+# ignore folder
+rsconnect
+www
+.DS_Store
+Module-2-Spatial-packages-for-R_files
+
+# ignore the html file
+Module-2-Spatial-packages-for-R.html
