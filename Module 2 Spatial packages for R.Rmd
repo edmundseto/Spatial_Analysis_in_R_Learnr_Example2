@@ -81,7 +81,8 @@ R by itself doesn't have functions to easily import and work with spatial data. 
 
 Let's use the *sf* (Simple Features) package to import and plot the shapefile that we downloaded before.  The sf package understands spatial data objects and can therefore store vector data like points, lines, and polygons.
 
-If you're working on your own RStudio project, and need to install the sf package, you can install it by typing this command in the R console:  
+If you're working on your own RStudio project, and need to install the sf package, you can install it by following the instructions on the sf github website: https://github.com/r-spatial/sf  
+Note that the install process on Windows requires Rtools to be installed.  The install process on MacOS requires the installation of gdal.  I suggest following their installation instructions, then typing the regular command in the R console to install the package:  
 `install.packages("sf")`
 
 We'll also use the visualization package called ggplot2. Let's install it too:  
